@@ -9,39 +9,50 @@
     <link rel="stylesheet" href="styles/style.css">
 </head>
 
-<body>
-
+<body class="container">
     <header>
-        <a href="">About</a>
-        <a href="">Store</a> 
-        <a href="">Gmail</a>
-        <a href="">Images</a>
-        <a href="">Apps</a>
-        <a href=""><img src="images/user-icon.png" id="user-icon-id"></a>
+        <div id="left-head">
+        <a href="#">About</a>
+        <a href="#">Store</a>
+        </div>
+
+        <div id="right-head">
+        <a href="#">Gmail</a>
+        <a href="#">Images</a>
+        <a href="#">Apps</a>
+        </div>
+
+        <div>
+        <a href="#"><img src="images/user-icon.png" id="user-icon-id"></a>
+        </div>
     </header>
 
-    <div id="logo-div"><img src="images/google-logo.jpg" id="google-logo-id"></div>
+    <img src="images/google-logo.jpg" id="google-logo-id">
 
-    <div id="form-div">
-        <form>
-            <input type="text" name="text" id="searchbar-id"><br>
-            <input type="submit" value="Google Search">
+    <form>
+        <input type="text" name="text" id="searchbar-id">
+        <div id="buttons">
+            <input type="submit" value="Google Search" id="gsearch">
             <input type="submit" value="I'm Feeling Lucky">
-        </form>
-    </div>
+        </div>
+    </form>
 
     <div id="above-footer">
         <strong>Carbon neutral since 2007</strong>
     </div>
 
-    <Footer>
-            <a href="">Advertising</a>
-            <a href="">Business</a>
-            <a href="">How Search works</a>
-            <a href="">Privacy</a>
-            <a href="">Terms</a>
-            <a href="">Settings</a>
+    <footer>
+        <div id="left-foot">
+        <a href="#">Advertising</a>
+        <a href="#">Business</a>
+        <a href="#">How Search works</a>
+        </div>
 
+        <div id="right-foot">
+        <a href="#">Privacy</a>
+        <a href="#">Terms</a>
+        <a href="#">Settings</a>
+        </div>
     </footer>
 
 </body>
