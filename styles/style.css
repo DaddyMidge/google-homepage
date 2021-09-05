@@ -10,8 +10,18 @@ a:hover{
 
 body{
     font-family:monospace;
+    background-color: white;
 }
 
 #top-footer{
     font-size:1.5em;
+}
+
+#google-logo-id{
+    max-width: 35em;
+    border-radius: 10em;
+}
+
+#user-icon-id{
+    border-radius: 50%;
 }
