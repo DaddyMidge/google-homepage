@@ -1,0 +1,1 @@
+The goal here is to create a mock google homepage as a practice for The Odin Project.
