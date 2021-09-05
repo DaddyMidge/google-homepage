@@ -11,17 +11,26 @@ a:hover{
 body{
     font-family:monospace;
     background-color: white;
-}
-
-#top-footer{
-    font-size:1.5em;
+    margin: 0;
 }
 
 #google-logo-id{
     max-width: 35em;
     border-radius: 10em;
+    text-align:center;
+
 }
 
 #user-icon-id{
     border-radius: 50%;
+}
+
+#searchbar-id{
+    border-radius: 35em;
+    width: 30em;
+    height: 2em;
+}
+
+#above-footer{
+    font-size: 1.75em;
 }
